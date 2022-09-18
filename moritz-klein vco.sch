@@ -1943,7 +1943,7 @@ Wire Wire Line
 	2350 6200 2650 6200
 Connection ~ 2350 6200
 Wire Wire Line
-	2050 6100 1900 6100
+	2050 6200 1900 6200
 $Comp
 L power:GND #PWR0152
 U 1 1 63518345
@@ -2035,7 +2035,7 @@ Text Label 1900 4550 0    50   ~ 0
 saw_a
 Text Label 1900 5100 0    50   ~ 0
 saw_b
-Text Label 1900 6200 0    50   ~ 0
+Text Label 1900 6300 0    50   ~ 0
 saw_d
 Text Label 1900 6750 0    50   ~ 0
 saw_e
@@ -2167,88 +2167,88 @@ $EndComp
 $Comp
 L Connector:AudioJack2_SwitchT J1
 U 1 1 633E7840
-P 1150 4150
-F 0 "J1" H 970 4175 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 970 4084 50  0000 R CNN
-F 2 "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical" H 1150 4150 50  0001 C CNN
-F 3 "~" H 1150 4150 50  0001 C CNN
-	1    1150 4150
+P 1150 4900
+F 0 "J1" H 970 4925 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 970 4834 50  0000 R CNN
+F 2 "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical" H 1150 4900 50  0001 C CNN
+F 3 "~" H 1150 4900 50  0001 C CNN
+	1    1150 4900
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:AudioJack2_SwitchT J2
 U 1 1 633FE295
-P 1150 4600
-F 0 "J2" H 970 4625 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 970 4534 50  0000 R CNN
-F 2 "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical" H 1150 4600 50  0001 C CNN
-F 3 "~" H 1150 4600 50  0001 C CNN
-	1    1150 4600
+P 1150 5350
+F 0 "J2" H 970 5375 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 970 5284 50  0000 R CNN
+F 2 "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical" H 1150 5350 50  0001 C CNN
+F 3 "~" H 1150 5350 50  0001 C CNN
+	1    1150 5350
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:AudioJack2_SwitchT J3
 U 1 1 63408D58
-P 1150 5050
-F 0 "J3" H 970 5075 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 970 4984 50  0000 R CNN
-F 2 "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical" H 1150 5050 50  0001 C CNN
-F 3 "~" H 1150 5050 50  0001 C CNN
-	1    1150 5050
+P 1150 5800
+F 0 "J3" H 970 5825 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 970 5734 50  0000 R CNN
+F 2 "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical" H 1150 5800 50  0001 C CNN
+F 3 "~" H 1150 5800 50  0001 C CNN
+	1    1150 5800
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:AudioJack2_SwitchT J4
 U 1 1 634139EA
-P 1150 5500
-F 0 "J4" H 970 5525 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 970 5434 50  0000 R CNN
-F 2 "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical" H 1150 5500 50  0001 C CNN
-F 3 "~" H 1150 5500 50  0001 C CNN
-	1    1150 5500
+P 1150 6250
+F 0 "J4" H 970 6275 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 970 6184 50  0000 R CNN
+F 2 "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical" H 1150 6250 50  0001 C CNN
+F 3 "~" H 1150 6250 50  0001 C CNN
+	1    1150 6250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:AudioJack2_SwitchT J5
 U 1 1 6341E8C4
-P 1150 6000
-F 0 "J5" H 970 6025 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 970 5934 50  0000 R CNN
-F 2 "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical" H 1150 6000 50  0001 C CNN
-F 3 "~" H 1150 6000 50  0001 C CNN
-	1    1150 6000
+P 1150 6750
+F 0 "J5" H 970 6775 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 970 6684 50  0000 R CNN
+F 2 "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical" H 1150 6750 50  0001 C CNN
+F 3 "~" H 1150 6750 50  0001 C CNN
+	1    1150 6750
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:AudioJack2_SwitchT J6
 U 1 1 6342967B
-P 1150 6500
-F 0 "J6" H 970 6525 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 970 6434 50  0000 R CNN
-F 2 "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical" H 1150 6500 50  0001 C CNN
-F 3 "~" H 1150 6500 50  0001 C CNN
-	1    1150 6500
+P 1150 7250
+F 0 "J6" H 970 7275 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 970 7184 50  0000 R CNN
+F 2 "AudioJacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical" H 1150 7250 50  0001 C CNN
+F 3 "~" H 1150 7250 50  0001 C CNN
+	1    1150 7250
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	950  4150 750  4150
+	950  4900 750  4900
 Wire Wire Line
-	950  5050 750  5050
+	950  5800 750  5800
 Wire Wire Line
-	950  5500 750  5500
+	950  6250 750  6250
 Wire Wire Line
-	950  6500 750  6500
-Text Label 950  4150 2    50   ~ 0
+	950  7250 750  7250
+Text Label 950  4900 2    50   ~ 0
 cv_in_a
-Text Label 950  4600 2    50   ~ 0
+Text Label 950  5350 2    50   ~ 0
 cv_in_b
-Text Label 950  5050 2    50   ~ 0
+Text Label 950  5800 2    50   ~ 0
 cv_in_c
-Text Label 950  5500 2    50   ~ 0
+Text Label 950  6250 2    50   ~ 0
 cv_in_d
-Text Label 900  6000 2    50   ~ 0
+Text Label 900  6750 2    50   ~ 0
 cv_in_e
-Text Label 950  6500 2    50   ~ 0
+Text Label 950  7250 2    50   ~ 0
 cv_in_f
 Wire Notes Line
 	1950 1950 1950 450 
@@ -2401,10 +2401,10 @@ F 3 "" H 4150 6850 50  0001 C CNN
 	1    4150 6850
 	1    0    0    -1  
 $EndComp
-Text Label 1900 5650 0    50   ~ 0
+Text Label 1900 5750 0    50   ~ 0
 saw_c
 Wire Wire Line
-	2050 5550 1900 5550
+	2050 5650 1900 5650
 Wire Wire Line
 	2350 5650 2650 5650
 $Comp
@@ -2431,9 +2431,9 @@ F 3 "~" H 2350 5800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	950  4600 750  4600
+	950  5350 750  5350
 Wire Wire Line
-	700  6000 950  6000
+	700  6750 900  6750
 Wire Wire Line
 	2650 4450 2600 4450
 Wire Wire Line
@@ -2441,10 +2441,10 @@ Wire Wire Line
 Wire Wire Line
 	2600 4450 2600 4650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0155
 U 1 1 635890A6
 P 2600 4650
-F 0 "#PWR?" H 2600 4400 50  0001 C CNN
+F 0 "#PWR0155" H 2600 4400 50  0001 C CNN
 F 1 "GND" H 2605 4477 50  0000 C CNN
 F 2 "" H 2600 4650 50  0001 C CNN
 F 3 "" H 2600 4650 50  0001 C CNN
@@ -2458,10 +2458,10 @@ Wire Wire Line
 Wire Wire Line
 	2600 5000 2600 5200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0156
 U 1 1 635A50D1
 P 2600 5200
-F 0 "#PWR?" H 2600 4950 50  0001 C CNN
+F 0 "#PWR0156" H 2600 4950 50  0001 C CNN
 F 1 "GND" H 2605 5027 50  0000 C CNN
 F 2 "" H 2600 5200 50  0001 C CNN
 F 3 "" H 2600 5200 50  0001 C CNN
@@ -2475,10 +2475,10 @@ Wire Wire Line
 Wire Wire Line
 	2600 5550 2600 5750
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0157
 U 1 1 635B2DF3
 P 2600 5750
-F 0 "#PWR?" H 2600 5500 50  0001 C CNN
+F 0 "#PWR0157" H 2600 5500 50  0001 C CNN
 F 1 "GND" H 2605 5577 50  0000 C CNN
 F 2 "" H 2600 5750 50  0001 C CNN
 F 3 "" H 2600 5750 50  0001 C CNN
@@ -2492,10 +2492,10 @@ Wire Wire Line
 Wire Wire Line
 	2600 6100 2600 6300
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0158
 U 1 1 635C144F
 P 2600 6300
-F 0 "#PWR?" H 2600 6050 50  0001 C CNN
+F 0 "#PWR0158" H 2600 6050 50  0001 C CNN
 F 1 "GND" H 2605 6127 50  0000 C CNN
 F 2 "" H 2600 6300 50  0001 C CNN
 F 3 "" H 2600 6300 50  0001 C CNN
@@ -2509,10 +2509,10 @@ Wire Wire Line
 Wire Wire Line
 	2600 6650 2600 6850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0159
 U 1 1 635CFFBE
 P 2600 6850
-F 0 "#PWR?" H 2600 6600 50  0001 C CNN
+F 0 "#PWR0159" H 2600 6600 50  0001 C CNN
 F 1 "GND" H 2605 6677 50  0000 C CNN
 F 2 "" H 2600 6850 50  0001 C CNN
 F 3 "" H 2600 6850 50  0001 C CNN
@@ -2526,10 +2526,10 @@ Wire Wire Line
 Wire Wire Line
 	2600 7200 2600 7400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0160
 U 1 1 635DF303
 P 2600 7400
-F 0 "#PWR?" H 2600 7150 50  0001 C CNN
+F 0 "#PWR0160" H 2600 7150 50  0001 C CNN
 F 1 "GND" H 2605 7227 50  0000 C CNN
 F 2 "" H 2600 7400 50  0001 C CNN
 F 3 "" H 2600 7400 50  0001 C CNN
@@ -2537,106 +2537,117 @@ F 3 "" H 2600 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  6400 900  6400
+	950  7150 900  7150
 Wire Wire Line
-	950  6600 900  6600
+	950  7350 900  7350
 Wire Wire Line
-	900  6400 900  6600
+	900  7150 900  7350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0161
 U 1 1 635EEFBB
-P 900 6600
-F 0 "#PWR?" H 900 6350 50  0001 C CNN
-F 1 "GND" H 905 6427 50  0000 C CNN
-F 2 "" H 900 6600 50  0001 C CNN
-F 3 "" H 900 6600 50  0001 C CNN
-	1    900  6600
+P 900 7350
+F 0 "#PWR0161" H 900 7100 50  0001 C CNN
+F 1 "GND" H 905 7177 50  0000 C CNN
+F 2 "" H 900 7350 50  0001 C CNN
+F 3 "" H 900 7350 50  0001 C CNN
+	1    900  7350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	950  6650 900  6650
+Wire Wire Line
+	950  6850 900  6850
+Wire Wire Line
+	900  6650 900  6750
+$Comp
+L power:GND #PWR0162
+U 1 1 635FF363
+P 900 6850
+F 0 "#PWR0162" H 900 6600 50  0001 C CNN
+F 1 "GND" H 905 6677 50  0000 C CNN
+F 2 "" H 900 6850 50  0001 C CNN
+F 3 "" H 900 6850 50  0001 C CNN
+	1    900  6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6150 900  6150
+Wire Wire Line
+	950  6350 900  6350
+Wire Wire Line
+	900  6150 900  6350
+$Comp
+L power:GND #PWR0163
+U 1 1 6360FECD
+P 900 6350
+F 0 "#PWR0163" H 900 6100 50  0001 C CNN
+F 1 "GND" H 905 6177 50  0000 C CNN
+F 2 "" H 900 6350 50  0001 C CNN
+F 3 "" H 900 6350 50  0001 C CNN
+	1    900  6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  5700 900  5700
 Wire Wire Line
 	950  5900 900  5900
 Wire Wire Line
-	950  6100 900  6100
-Wire Wire Line
-	900  5900 900  6100
+	900  5700 900  5900
 $Comp
-L power:GND #PWR?
-U 1 1 635FF363
-P 900 6100
-F 0 "#PWR?" H 900 5850 50  0001 C CNN
-F 1 "GND" H 905 5927 50  0000 C CNN
-F 2 "" H 900 6100 50  0001 C CNN
-F 3 "" H 900 6100 50  0001 C CNN
-	1    900  6100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	950  5400 900  5400
-Wire Wire Line
-	950  5600 900  5600
-Wire Wire Line
-	900  5400 900  5600
-$Comp
-L power:GND #PWR?
-U 1 1 6360FECD
-P 900 5600
-F 0 "#PWR?" H 900 5350 50  0001 C CNN
-F 1 "GND" H 905 5427 50  0000 C CNN
-F 2 "" H 900 5600 50  0001 C CNN
-F 3 "" H 900 5600 50  0001 C CNN
-	1    900  5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	950  4950 900  4950
-Wire Wire Line
-	950  5150 900  5150
-Wire Wire Line
-	900  4950 900  5150
-$Comp
-L power:GND #PWR?
+L power:GND #PWR0164
 U 1 1 636214C5
-P 900 5150
-F 0 "#PWR?" H 900 4900 50  0001 C CNN
-F 1 "GND" H 905 4977 50  0000 C CNN
-F 2 "" H 900 5150 50  0001 C CNN
-F 3 "" H 900 5150 50  0001 C CNN
-	1    900  5150
+P 900 5900
+F 0 "#PWR0164" H 900 5650 50  0001 C CNN
+F 1 "GND" H 905 5727 50  0000 C CNN
+F 2 "" H 900 5900 50  0001 C CNN
+F 3 "" H 900 5900 50  0001 C CNN
+	1    900  5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  4500 900  4500
+	950  5250 900  5250
 Wire Wire Line
-	950  4700 900  4700
+	950  5450 900  5450
 Wire Wire Line
-	900  4500 900  4700
+	900  5250 900  5450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0165
 U 1 1 636331C3
-P 900 4700
-F 0 "#PWR?" H 900 4450 50  0001 C CNN
-F 1 "GND" H 905 4527 50  0000 C CNN
-F 2 "" H 900 4700 50  0001 C CNN
-F 3 "" H 900 4700 50  0001 C CNN
-	1    900  4700
+P 900 5450
+F 0 "#PWR0165" H 900 5200 50  0001 C CNN
+F 1 "GND" H 905 5277 50  0000 C CNN
+F 2 "" H 900 5450 50  0001 C CNN
+F 3 "" H 900 5450 50  0001 C CNN
+	1    900  5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  4050 900  4050
+	950  4800 900  4800
 Wire Wire Line
-	950  4250 900  4250
+	950  5000 900  5000
 Wire Wire Line
-	900  4050 900  4250
+	900  4800 900  5000
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0166
 U 1 1 636456FB
-P 900 4250
-F 0 "#PWR?" H 900 4000 50  0001 C CNN
-F 1 "GND" H 905 4077 50  0000 C CNN
-F 2 "" H 900 4250 50  0001 C CNN
-F 3 "" H 900 4250 50  0001 C CNN
-	1    900  4250
+P 900 5000
+F 0 "#PWR0166" H 900 4750 50  0001 C CNN
+F 1 "GND" H 905 4827 50  0000 C CNN
+F 2 "" H 900 5000 50  0001 C CNN
+F 3 "" H 900 5000 50  0001 C CNN
+	1    900  5000
 	1    0    0    -1  
 $EndComp
 Connection ~ 2350 4550
+Connection ~ 900  5000
+Connection ~ 900  5450
+Connection ~ 900  5900
+Connection ~ 900  6350
+Connection ~ 900  6750
+Wire Wire Line
+	900  6750 950  6750
+Wire Wire Line
+	900  6750 900  6850
+Connection ~ 900  6850
+Connection ~ 900  7350
 $EndSCHEMATC
